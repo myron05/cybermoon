@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+	text-decoration: none;
+
+}
+body
+{
+	min-height: 100vh;
+	overflow-x: hidden;
+	background: linear-gradient(#2b1055,#7597de);
+
+}
+header
+{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+}
+header .logo
+{
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+header ul
+{
+	display:flex;
+	justify-content: center;
+	align-items: center,
+
+}
+header ul li
+{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius:20px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+   background: #fff;
+   color: #2b1055;
+}
+section{
+	position:relative;
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+section::before
+{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top,#1c0522,transparent);
+	z-index: 1000;
+}
+section img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+section img#moon
+{
+	mix-blend-mode: screen;
+}
+section img#mountains_front
+{
+	z-index: 10;
+}
+#text
+{
+	position: absolute;
+	right: -350px;
+	color: #fff;
+	white-space: nowrap;
+	font-size: 7.5vw;
+	z-index: 9; 
+
+}
+#btn
+{
+	 text-decoration: none;
+	 display: inline-block;
+	 padding: 8px 30px;
+	 border-radius: 40px;
+	 background: #fff;
+	 color: #2b1055;
+	 font-size: 1.5em;
+	 transform: translateY(100px);
+}
+.sec{
+	position: relative;
+	padding: 100px;
+	background: #1c0522;
+
+  
+}
+
+
+.sec h2
+{
+	font-size: 3.5em;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.sec p
+{
+	font-size: 1em;
+	
+	color: #fff;
+
+}
+
+/* Contenedor 1 TABLAS PRESALE */
+.container{
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans",sans-serif;
+  
+  
+  
+}
+
+.container::before
+{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 500%;
+	height: 100px;
+	background: linear-gradient(to top,#01070a,transparent);
+	z-index: 1000;
+	left: -20%;
+}
+
+
+
+.pricing-table{
+  background: #f1f1f1;
+  flex: 1;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+}
+
+.pricing-header{
+  color: #fff;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.price{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.price span{
+  font-size: 30px;
+}
+
+.title{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,50%);
+  width: 80%;
+  max-width: 360px;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.pricing-list{
+  padding: 10px 20px;
+}
+
+.pricing-list li{
+  margin: 8px 0;
+  font-size: 14px;
+  color: #344;
+  text-align: center;
+  list-style: none;
+}
+
+.border{
+  width: 80px;
+  height: 1px;
+  background: #ddd;
+  margin: auto;
+}
+
+.pricing-table a{
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+  border: 1px solid;
+  max-width: 360px;
+  transition: .2s linear;
+}
+.pricing-table a:hover{
+  border-radius: 30px;
+}
+.table1 .pricing-header{
+  background: #2980b9;
+}
+.table2 .pricing-header{
+  background: #2c3e50;
+}
+.table3 .pricing-header{
+  background: #c0392b;
+}
+.table4 .pricing-header{
+  background: #808000;
+}
+
+.table1 .title{
+  background-image: linear-gradient(125deg,#3498db,#9b59b6);
+}
+.table2 .title{
+  background-image: linear-gradient(125deg,#34495e,#95a5a6);
+}
+.table3 .title{
+  background-image: linear-gradient(125deg,#e74c3c,#f39c12);
+}
+.table4 .title{
+  background-image: linear-gradient(125deg,#808000,#e74c3c);
+}
+
+.table1 a{
+  color: #2980b9;
+}
+.table2 a{
+  color: #2c3e50;
+}
+.table3 a{
+  color: #c0392b;
+}
+.table4 a{
+  color: #c0392b;
+}
+
+.table1 a:hover{
+  background: #2980b9;
+  color: #fff;
+}
+.table2 a:hover{
+  background: #2c3e50;
+  color: #fff;
+}
+.table3 a:hover{
+  background: #c0392b;
+  color: #fff;
+}
+.table4 a:hover{
+  background: #c0392b;
+  color: #fff;
+}
+
+@media screen and (max-width:780px) {
+  .pricing-table{
+    flex: 100%;
+  }
+}
+
+
+/*Contenedor 2 nave espacial */
+.container2
+{
+	margin:0;
+	padding:0; 
+	box-sizing: border-box;
+}
+
+
+.scene
+{
+	position:relative;
+	width: 100%;
+	height: 70vh;
+	background: #01070a;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.scene i
+{
+	position: absolute;
+	top: -250px;
+	background: rgba(255,255,255,0.5);
+	animation: animateStars linear infinite;;
+}
+@keyframes animateStars
+{
+	0%
+	{
+		transform: translateY(0);
+
+	}
+	100%
+	{
+		transform: translateY(200vh);
+	}
+}
+.scene .rocket
+{
+	position: absolute;
+	pointer-events: none;
+	animation: animate 0.2s ease infinite;;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform:translateY(-2px) ;
+
+	}
+	50%
+	{
+		transform: translateY(2px) ;
+	}
+}
+.scene .rocket::before
+{
+	content: '';
+	position: absolute;
+	bottom: -295px;
+	left: 44%;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 200px;
+	background: linear-gradient(#00d0ff,transparent);
+}
+.scene .rocket::after
+{
+	content: '';
+	position: absolute;
+	bottom: -200px;
+	left: 50%;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 200px;
+	background: linear-gradient(#00d0ff,transparent);
+	filter: blur(20px);
+	transition: 0.1%;
+}
+
+
+.scene:active .rocket::before,
+.scene:active .rocket::after
+{
+	background: linear-gradient(#ff12d7,transparent);
+	bottom: -295px;
+	height: 200px;
+	filter: blur(2px);
+	left: 44%;
+
+
+}
+
+
+.project-us
+{
+	margin:0;
+	padding:0; 
+	box-sizing: border-box;
+	position:relative;
+	width: 100%;
+	height: 30vh ;
+	background: #01070a;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-project
+{
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 70px 70px;
+  font-family: "Open Sans",sans-serif;
+  color: #fff;
+  
+}
+
+
+/* Contenedor 3 informacion del token */
+.container3
+{
+	margin:0;
+	padding:0; 
+	box-sizing: border-box;
+	position:relative;
+	width: 100%;
+	height: 20vh;
+	background: #01070a;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info
+{
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 70px 70px;
+  font-family: "Open Sans",sans-serif;
+  color: #fff;
+  
+}
+
+
+
+
+.full-screen{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-screen video{
+  position: absolute;
+  left: 0;
+  top: 10;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.content a{
+  display: block;
+  margin: 50px auto;
+  width: 250px;
+  height: 54px;
+  line-height: 54px;
+  background: #ff4655;
+  text-align: center;
+  color: #ececec;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .4s linear;
+}
+
+.content a:hover{
+  background: #0f1923;
+}
+
+
+.wrapper {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #01070a; 
+}
+.txt {
+    color: #ffffff;
+    background:#01070a;
+    font-size:70px;
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+.txt::before {
+    content: 'PROJECT US';
+    position: absolute;
+    mix-blend-mode: difference;
+    filter: blur(3px);
+}
+.neon-wrapper {
+    display:inline-flex;
+    filter: brightness(200%);
+    overflow: hidden;
+}
+.gradient{
+    background: linear-gradient(114.5793141156962deg, rgba(6, 227, 250,1) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%);
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+    mix-blend-mode: multiply;
+}
+.dodge {
+    background: radial-gradient(circle,white,black 35%) center / 25% 25%;
+    position: absolute;
+    top:-100%;
+    left:-100%;
+    right:0;
+    bottom:0;
+    mix-blend-mode: color-dodge;
+    animation: dodge-area 3s linear infinite;
+}
+@keyframes dodge-area {
+    to {
+        transform: translate(50%,50%);
+    }
+}
