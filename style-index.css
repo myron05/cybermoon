@@ -524,7 +524,7 @@ section img#mountains_front
     text-transform: uppercase;
 }
 .txt::before {
-    content: 'PROJECT US';
+    content: 'OUR PROJECT';
     position: absolute;
     mix-blend-mode: difference;
     filter: blur(3px);
