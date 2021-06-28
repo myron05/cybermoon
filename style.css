@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
+@font-face {
+	font-family: 'Conv_Uniflex_PersonalUseOnly';
+	src: url('fonts/Uniflex_PersonalUseOnly.eot');
+	src: local('☺'), url('fonts/Uniflex_PersonalUseOnly.woff') format('woff'), url('fonts/Uniflex_PersonalUseOnly.ttf') format('truetype'), url('fonts/Uniflex_PersonalUseOnly.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_VIDEOPHREAK';
+	src: url('fonts/VIDEOPHREAK.eot');
+	src: local('☺'), url('fonts/VIDEOPHREAK.woff') format('woff'), url('fonts/VIDEOPHREAK.ttf') format('truetype'), url('fonts/VIDEOPHREAK.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_paola';
+	src: url('fonts/paola.eot');
+	src: local('☺'), url('fonts/paola.woff') format('woff'), url('fonts/paola.ttf') format('truetype'), url('fonts/paola.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_GeosansLight';
+	src: url('fonts/GeosansLight.eot');
+	src: local('☺'), url('fonts/GeosansLight.woff') format('woff'), url('fonts/GeosansLight.ttf') format('truetype'), url('fonts/GeosansLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 html, body {
     max-width: 100% !important;
