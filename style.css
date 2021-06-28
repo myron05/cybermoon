@@ -152,8 +152,8 @@ section img#mountains_front
 }
 
 /* Contenedor 1 TABLAS PRESALE */
-.container{
-  max-width: 1000px;
+.containertablas{
+  max-width: 1100px;
   margin: auto;
   padding: 40px;
   display: flex;
@@ -410,6 +410,14 @@ section img#mountains_front
 
 }
 
+.game-info{
+	display: flex;
+	margin:0;
+	padding:0;
+	width: 100%; 
+	height: 70vh ;
+}
+
 
 .project-us
 {
@@ -417,25 +425,42 @@ section img#mountains_front
 	padding:0; 
 	box-sizing: border-box;
 	position:relative;
-	width: 100%;
-	height: 20vh ;
-	background: #01070a;
+	
+	background: #000;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+
+
+	height: 100vh;
+	width: 50%;
 }
 
 .info-project
 {
-  font-size: 23px;
+  font-size: 1.1em;
   display: flex;
   text-align: center;
   justify-content: center;
-  padding: 70px 70px;
-  font-family: "Open Sans",sans-serif;
+  padding: auto;
+  	font-family: 'Conv_GeosansLight';
+
   color: #fff;
-  
+  margin-bottom: 250px;
+  margin-left: 50px;
+}
+.game{
+	background: #000;
+	height: 100vh;
+	width: 50%;
+}
+.game img{
+	margin-top: 80px;
+	margin-left: 120px;
+	width: 15em;
+	height: 15em;
 }
 
 
@@ -457,7 +482,7 @@ section img#mountains_front
 
 .info
 {
-  font-size: 23px;
+  font-size: 20px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -513,12 +538,14 @@ section img#mountains_front
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #01070a; 
+    background: #01070a 
+
+
 }
 .txt {
     color: #ffffff;
     background:#01070a;
-    font-size:70px;
+    font-size:50px;
     font-weight: bold;
     font-family: Arial;
     text-transform: uppercase;
@@ -563,4 +590,221 @@ section img#mountains_front
 {
 background: #01070a;
 }
+
+
+
+.luna img {
+	margin right: 50%;
+
+
+}
+
+/*Info del juego de rol*/
+
+
+
+
+
+
+
+.sec2{
+	position: relative;
+	padding: 50px;
+	background: #fff;
+
+  
+}
+
+
+.sec2 h1
+{
+	font-size: 3em;
+	margin-bottom: 10px;
+	color: #000;
+	font-family: 'Conv_Uniflex_PersonalUseOnly';
+	text-transform: none;
+}
+.sec2 p
+{
 	
+	
+	color: #000;
+	margin: auto;
+	font-size: 1.2em;
+	line-height: 120%;
+	width: 70%;
+	margin-top: 20px;
+	text-align: center;
+	text-transform:none;
+
+}
+.sec3{
+	position: relative;
+	padding: 50px;
+	background: #01070a;
+
+
+}
+.sec4{
+	position: relative;
+	padding: 50px;
+	background: #01070a;
+
+
+}
+.sec5{
+	position: relative;
+	padding: 20px;
+	background: #01070a;
+
+  
+}
+
+
+
+
+.sec4 p{
+	
+color: #fff;
+text-transform: none;
+
+
+}
+.sec3 p{
+	color: #fff;
+	margin: auto;
+	font-size: 1.2em;
+	line-height: 120%;
+	width: 70%;
+	margin-top: 20px;
+	text-align: center;
+	text-transform:none;
+
+}
+
+/* Contenedor 1 TABLAS PRESALE */
+.containerinfo{
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans",sans-serif;
+  
+
+  
+  
+  
+}
+.containerinfo2{
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans",sans-serif;
+
+}
+.containerinfo2{
+ align-items: center;
+
+}
+
+
+
+
+
+/*.containerinfo::before
+{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 500%;
+	height: 100px;
+	background: linear-gradient(to top,#01070a,transparent);
+	z-index: 1000;
+	left: -20%;
+}*/
+
+
+
+.cybermoon{
+  background: #fff;
+  flex: 1;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+}
+.cyber{
+  background: #01070a;
+  flex: 1;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+}
+.rol{
+  background: #01070a;
+  flex: 1;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+}
+
+
+
+.border{
+  width: 80px;
+  height: 1px;
+  background: #ddd;
+  margin: auto;
+}
+
+.table6{
+	background: #fff;
+}
+.table6 img{
+	width: 70%;
+}
+.table7 img{
+	
+}
+.table8 h1{
+
+}
+.table9 p{
+	text-align: center;
+}
+.table10 img{
+	width: 20%;
+	margin-top:  30px;
+}
+.table12 img{
+	width: 100%;
+	margin-top: -100px;
+	
+}
+.table13 img{
+	width: 100%;
+	margin-top: -100px;
+}
+
+
+@media screen and (max-width:780px) {
+  .cybermoon{
+    flex: 100%;
+  }
+}
+
+.contenerdoress{
+height: 10vh;
+background: #fff;
+}
+
+
+
+
+
+
