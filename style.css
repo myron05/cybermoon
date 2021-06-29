@@ -184,8 +184,8 @@ section img#mountains_front
 }
 
 /* Contenedor 1 TABLAS PRESALE */
-.containertablas{
-  max-width: 1100px;
+.container{
+  max-width: 1000px;
   margin: auto;
   padding: 40px;
   display: flex;
